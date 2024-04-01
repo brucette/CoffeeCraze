@@ -14,11 +14,11 @@
   </head>
   <body class="d-flex flex-column min-vh-100">
     <header>
-      <nav class="navbar navbar-expand-lg">
-        <div class="container justify-content-end">
+      <nav class="navbar navbar-expand-lg bg-body-primary">
+        <div class="container-fluid">
           <!-- LOGO or Home? -->
           <a class="navbar-brand" href="#">
-            <h1>CoffeeCraze</h1>
+            <h1 class="primary">CoffeeCraze</h1>
           </a>
           <button
             class="navbar-toggler border-0"
@@ -29,20 +29,23 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <span class="hamburger"></span>
+            <span class="hamburger"></span>
+            <span class="hamburger"></span>
           </button>
+
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="index.html"
-                  >Home</a
-                >
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="products.html">Products</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="about-us.html">About us</a>
+                <a class="nav-link" href="about-us.html">About us</a>
               </li>
             </ul>
           </div>
@@ -50,33 +53,45 @@
       </nav>
     </header>
 
-    <section class="container">
-      <h2>More about us</h2>
-      <p>
-        Meggings mixtape praxis, sartorial bicycle rights vegan sustainable
-        paleo dreamcatcher synth. Health goth migas narwhal try-hard skateboard
-        drinking vinegar semiotics DSA. Scenester irony poke, adaptogen forage
-        you probably haven't heard of them chambray hammock hexagon man braid
-        retro direct trade mustache master cleanse iPhone. Kitsch neutral milk
-        hotel food truck mlkshk stumptown, air plant lyft flannel biodiesel
-        freegan butcher umami cupping fingerstache.
-      </p>
+    <main class="mt-3 mb-3 p-3">
+      <section class="container m-auto">
+        <div class="row">
+          <div class="col-md-8 offset-md-2">
+            <h2>More about us</h2>
+          </div>
+        </div>
 
-    <main class="flex-shrink-0 m-auto container border">
+        <div class="row">
+          <div class="col-md-7 offset-md-2">
+            <p>
+              Meggings mixtape praxis, sartorial bicycle rights vegan
+              sustainable paleo dreamcatcher synth. Health goth migas narwhal
+              try-hard skateboard drinking vinegar semiotics DSA. Scenester
+              irony poke, adaptogen forage you probably haven't heard of them
+              chambray hammock hexagon man braid retro direct trade mustache
+              master cleanse iPhone.
+            </p>
+          </div>
+        </div>
+      </section>
 
-      <h3>Contact us</h3>
-      <div class="container">
-        <div class="row g-5">
-          <div class="col-md-3 offset-md-3">
-            <div class="card mb-5">
-              <!-- <img class="img-fluid rounded-start" src="assets/ceo.jpg" alt="" /> -->
+      <div class="container mt-4 mb-4 border">
+        <div class="row">
+          <div class="col-md-4 offset-lg-2">
+            <h2>Contact us</h2>
+          </div>
+        </div>
+
+        <div class="row g-md-5 mt-2">
+          <div class="col-8 col-lg-3 offset-lg-2">
+            <div class="card mb-3 border-0">
               <img
                 class="rounded-circle shadow-4-strong"
-                src="assets/cropped/ceo.jpg"
-                alt=""
+                src="assets/staff/ceo.jpg"
+                alt="Gillian McCoffee"
               />
-              <div class="card-body">
-                <h6 class="card-title">Tina Bruce, CEO</h6>
+              <div class="card-body text-center">
+                <h6 class="card-title">Gillian McCoffee, CEO</h6>
                 <p class="card-text">
                   <strong>Tel</strong>: 07-123-45678<br />
                   <strong>Email</strong>: ceo@coffeecraze.com
@@ -84,16 +99,15 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3">
-            <div class="card mb-5">
-              <!-- <img class="img-fluid rounded-start" src="assets/ceo.jpg" alt="" /> -->
+          <div class="col-8 col-lg-3">
+            <div class="card mb-3 border-0">
               <img
                 class="rounded-circle shadow-4-strong"
-                src="assets/cropped/hr-man.jpg"
-                alt=""
+                src="assets/staff/hr-man.jpg"
+                alt="Michael Espresson"
               />
-              <div class="card-body">
-                <h6 class="card-title">Tina Bruce, HR Manager</h6>
+              <div class="card-body text-center">
+                <h6 class="card-title">Michael Espresson, HR Manager</h6>
                 <p class="card-text">
                   <strong>Tel</strong>: 07-910-182364<br />
                   <strong>Email</strong>: hr@coffeecraze.com
@@ -104,8 +118,6 @@
         </div>
       </div>
     </main>
-
-    </section>
 
     <footer class="mt-auto py-3 container-fluid d-flex"></footer>
     <script

@@ -1,8 +1,8 @@
 header {
   height: 100px;
-  background-color: #F7DD65;
-  background-color: #F7E48F;
-  background-color: #313538;
+  /* background-color: #F7DD65; */
+  /* background-color: #F7E48F;*/
+  background-color: #313538; 
 }
 
 h1 {
@@ -32,6 +32,38 @@ footer {
   color: #FCFCFC !important;
 }
 
+/* Override the link colors */
+.navbar-nav .nav-link {
+  color: #FCFCFC !important; 
+}
+
+.navbar-toggler-icon {
+  color: #FCFCFC; 
+}
+
+.hamburger {
+  display: block;
+  width: 24px;
+  height: 1.5px;
+  margin: 6px 14px;
+  background: #FCFCFC;
+  border-radius: 3px;
+}
+
+/* Override the active link color */
+.navbar-nav .nav-link.active {
+  color: #DEB127 !important;
+}
+
+.bg-body-primary {
+  background-color: #313538;
+}
+
+.card-footer {
+  background: transparent;
+  border-top: 0;
+}
+
 /* #F7DD65 yellow
   #491A0A brown
   #E63F00 orange
@@ -42,23 +74,17 @@ footer {
   #FCFCFC whitish
 */
 
-.card-footer {
-  background: transparent;
-  border-top: 0;
-
-}
+/* 
 .store {
   display: flex;
   justify-content: space-evenly;
 }
-
 .store li {
   width: 200px;
   height: 200px;
   overflow: hidden;
-}
-
-.store img {
-  height: 100%;
+} */
+/* .store img {
+  height: 100%; */
   /* width: 100%; */
-}
+/* } */
