@@ -15,7 +15,7 @@
   <body class="d-flex flex-column min-vh-100">
     <header>
       <nav class="navbar navbar-expand-lg bg-body-primary">
-        <div class="container-fluid">
+        <div class="container">
           <!-- LOGO or Home? -->
           <a class="navbar-brand" href="#">
             <h1 class="primary">CoffeeCraze</h1>
@@ -29,7 +29,6 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <!-- <span class="navbar-toggler-icon"></span> -->
             <span class="hamburger"></span>
             <span class="hamburger"></span>
             <span class="hamburger"></span>
@@ -39,7 +38,8 @@
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="index.html"
-                  >Home</a>
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="products.html">Products</a>
@@ -57,7 +57,7 @@
       <!-- Who are we? -->
       <section class="row mb-5 mb-md-3">
         <div
-          class="col-md-5 offset-md-1 d-flex flex-column justify-content-center align-items-center"
+          class="col-lg-5 offset-lg-1 d-flex flex-column justify-content-center align-items-center"
         >
           <h2>Who are we?</h2>
           <p class="mx-md-5 px-md-3">
@@ -68,18 +68,23 @@
             hexagon man braid retro direct trade.
           </p>
         </div>
-        <div class="col-md-5 d-flex justify-content-center">
-          <img class="img-fluid" src="assets/coffee-pour.jpg" alt="" />
+        <div class="col-lg-5 d-flex justify-content-center">
+          <img class="shadow-lg img-fluid" src="assets/coffee-pour.jpg" alt="" />
         </div>
+        <span class="divider border-bottom"></span>
       </section>
 
       <!-- What we do -->
       <section class="row mb-5 mb-md-3">
-        <div class="col-md-5 offset-md-1 d-flex justify-content-center">
-          <img class="img-fluid" src="assets/coffee-beans2.jpg" alt="" />
+        <div class="col-lg-6 offset-lg-1 d-flex justify-content-center">
+          <img
+            class="shadow-lg img-fluid"
+            src="assets/coffee-beans2.jpg"
+            alt=""
+          />
         </div>
         <div
-          class="col-md-5 d-flex flex-column justify-content-center align-items-center border"
+          class="col-lg-4 d-flex flex-column justify-content-center align-items-center mt-3"
         >
           <h2>What we do</h2>
           <p class="mx-md-5 px-md-3">
@@ -90,12 +95,13 @@
             unicorn..
           </p>
         </div>
+        <span class="divider border-bottom"></span>
       </section>
 
       <!-- Why choose us? -->
       <section class="row mb-5 mb-md-3">
         <div
-          class="col-md-5 offset-md-1 d-flex flex-column justify-content-center align-items-center"
+          class="col-lg-5 offset-lg-1 d-flex flex-column justify-content-center align-items-center"
         >
           <h2>Why choose us?</h2>
           <p class="mx-md-5 px-md-3">
@@ -105,18 +111,19 @@
             fashion axe raw denim food truck deep v 3 wolf moon.
           </p>
         </div>
-        <div class="col-md-5 d-flex justify-content-center">
-          <img class="img-fluid" src="assets/coffee-italian.jpg" alt="" />
+        <div class="col-lg-5 d-flex justify-content-center">
+          <img class="shadow-lg img-fluid" src="assets/coffee-italian.jpg" alt="" />
         </div>
+        <span class="divider border-bottom"></span>
       </section>
 
       <!-- Coffee party, here's how it works! -->
       <section class="row mb-5 mb-md-3">
-        <div class="col-md-5 offset-md-1 d-flex justify-content-center">
-          <img class="img-fluid" src="assets/coffee-tasting.jpg" alt="" />
+        <div class="col-lg-5 offset-lg-1 d-flex justify-content-center">
+          <img class="shadow-lg img-fluid" src="assets/coffee-tasting.jpg" alt="" />
         </div>
         <div
-          class="col-md-5 d-flex flex-column justify-content-center align-items-center mt-3"
+          class="col-lg-5 d-flex flex-column justify-content-center align-items-center mt-3"
         >
           <h2>Coffee party, here's how it works!</h2>
           <p class="mx-md-5 px-md-3">
@@ -125,13 +132,27 @@
             keytar. Neutral milk hotel irony pour-over culpa occupy. Fixie la
             croix esse deserunt 3 wolf moon blog gatekeep brunch chillwave.
           </p>
+          <div class="m-4">
+            <a class="info" href="products.html#coffeeTasting">Read more</a>
+          </div>
         </div>
+
+        
+        <span class="divider border-bottom"></span>
       </section>
     </main>
 
-    <footer class="mt-auto py-3 container-fluid">
-      <p>©2024 CoffeeCraze. All rights reserved.</p>
-      <p>Webmaster: Tina Bruce</p>
+    <footer class="mt-auto">
+      <div class="container">
+        <div class="row py-3">
+          <div class="col-lg-6">
+            <p>&copy; 2024 CoffeeCraze. All rights reserved.</p>
+          </div>
+          <div class="col-lg-6 text-lg-end">
+            <p>Webmaster: Tina Bruce</p>
+          </div>
+        </div>
+      </div>
     </footer>
 
     <script
@@ -155,14 +176,3 @@
           blue bottle kombucha woke fam solarpunk blackbird spyplane green juice 
           humblebrag. Cliche fam skateboard blog marfa glossier
 -->
-<!-- BeanCraft
-JavaJunction
-EspressoElevate
-CupCrafters
-RoastRoots
-CaffeineConnoisseurs
-BrewMasters
-BeanBliss
-CoffeeCraze
-TasteTrove
-BrewSavor -->
