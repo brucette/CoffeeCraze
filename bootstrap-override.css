@@ -1,0 +1,33 @@
+.btn-outline-primary {
+  color: #313538 !important;
+  border: 1px solid #313538;
+}
+
+.btn-outline-primary:hover {
+  background-color: #313538 !important;
+  border: 1px solid #313538;
+  color: #FCFCFC !important;
+}
+
+.navbar-nav .nav-link {
+  color: #FCFCFC !important; 
+}
+
+.navbar-nav .nav-link.active {
+  color: #DEB127 !important;
+  text-decoration-line: underline;
+}
+
+.bg-body-primary {
+  background-color: #313538;
+  z-index: 1;
+}
+
+.accordion-button {
+  background-color: #DEB127;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #DEB127 !important;
+  color: #313538;
+}
