@@ -24,10 +24,11 @@
 }
 
 .accordion-button {
-  background-color: #DEB127;
+  background-color: rgba(222, 177, 39, 0.8);
+
 }
 
 .accordion-button:not(.collapsed) {
-  background-color: #DEB127 !important;
+  background-color: rgba(222, 177, 39, 0.8) !important;
   color: #313538;
 }
