@@ -2,13 +2,10 @@
 body {
   color: #333333;
   font-family: 'Open Sans', sans-serif;
-  /* background-color: #F5F5F5; */
 }
 
 header {
   height: 100px;
-  /* background-color: #F7DD65; */
-  /* background-color: #F7E48F;*/
   background-color: #313538; 
 }
 
@@ -33,9 +30,7 @@ main p {
 
 footer {
   background-color: #363030;
-  /* height: 70px; */
   color: rgb(222, 177, 39);
-  
 }
 
 .hamburger {
@@ -54,7 +49,7 @@ footer {
 
 .jumbotron {
   height: 45vh;
-  /* background-size: cover; */
+  background-size: cover;
   background: url("assets/coffee-hero.jpg") no-repeat ;
   box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.1);
 }
